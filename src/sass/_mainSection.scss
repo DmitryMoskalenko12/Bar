@@ -1,0 +1,38 @@
+.main{
+  height: 780px;
+  background: url(../img/bg.png) center center/cover no-repeat;
+  &__half{
+    width: 52%;
+    height: 100%;
+    background: linear-gradient(141.38deg, rgba(0, 0, 0, 0.37) 0.62%, rgba(41, 38, 41, 0.01) 100%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(23px);  
+  }
+  &__wrapper{
+    width: 500px;
+    padding-top: 196px;
+    margin: 0 auto;
+    margin-left: 100px;
+  }
+  &__california{
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    backdrop-filter: unset;
+    color: #D6258F;
+    span{
+      width: 100%;
+      text-shadow: 7px 7px 25px #D6258F ;
+    }
+  }
+  &__best-bar{
+    font-weight: 400;
+    font-size: 38px;
+    color: #FFFFFF;
+    span{
+      font-weight: 400;
+      font-size: 38px;
+      color: #D6258F;
+    }
+  }
+}
