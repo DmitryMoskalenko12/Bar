@@ -1,0 +1,54 @@
+.foot{
+  min-height: 340px;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &__title{
+    font-weight: 400;
+    font-size: 34px;
+    color: #D6258F;
+    text-align: center;
+  }
+  &__street{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+  &__tel{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+  &__all{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+  }
+  &__line{
+    border: 3px solid $main-color;
+    box-shadow: 5px 5px 20px $main-color;
+    margin-bottom: 20px;
+  }
+  &__social{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  &__icon{
+    width: 30px;
+    height: 30px;
+    a{
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
